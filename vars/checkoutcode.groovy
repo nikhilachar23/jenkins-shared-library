@@ -1,4 +1,4 @@
 def call(cmd) {
-  echo " this stage will checkout  the source code of ${cmd}"
+  echo " this stage will checkout  the source code"
   checkout scm
 }
